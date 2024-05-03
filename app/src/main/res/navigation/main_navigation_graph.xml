@@ -10,14 +10,14 @@
         android:name="com.np.retrofit.practices.PracticeFragment"
         android:label="Practice Fragment">
 
-<!--        <action-->
-<!--            android:id="@+id/to_practice_fragment_n"-->
-<!--            app:destination="@+id/practical_fragment_n" />-->
+        <action
+            android:id="@+id/to_practice_fragment_1"
+            app:destination="@+id/practical_fragment_1" />
     </fragment>
 
-<!--    <fragment-->
-<!--        android:id="@+id/practical_fragment_n"-->
-<!--        android:name="com.np.retrofit.practices.practical_n.PracticalFragment"-->
-<!--        android:label="Practical Fragment n" />-->
+    <fragment
+        android:id="@+id/practical_fragment_1"
+        android:name="com.np.retrofit.practices.practical_1.PracticalFragment"
+        android:label="Practical Fragment 1" />
 
 </navigation>
