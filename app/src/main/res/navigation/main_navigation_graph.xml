@@ -20,4 +20,9 @@
         android:name="com.np.retrofit.practices.practical_1.PracticalFragment"
         android:label="Practical Fragment 1" />
 
+    <fragment
+        android:id="@+id/practical_fragment_2"
+        android:name="com.np.retrofit.practices.practical_2.PracticalFragment"
+        android:label="Practical Fragment 2" />
+
 </navigation>
