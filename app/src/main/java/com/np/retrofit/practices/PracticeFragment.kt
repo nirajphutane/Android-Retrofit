@@ -67,6 +67,14 @@ class PracticeFragment: BaseFragment() {
                     ) {
                         Text(text = "Retrofit Practical 4")
                     }
+
+                    Button(
+                        onClick = {
+                            navigateTo(R.id.practical_fragment_5)
+                        }
+                    ) {
+                        Text(text = "Retrofit Practical 5")
+                    }
                 }
             }
         }
