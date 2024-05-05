@@ -8,12 +8,7 @@
     <fragment
         android:id="@+id/practice_fragment"
         android:name="com.np.retrofit.practices.PracticeFragment"
-        android:label="Practice Fragment">
-
-        <action
-            android:id="@+id/to_practice_fragment_1"
-            app:destination="@+id/practical_fragment_1" />
-    </fragment>
+        android:label="Practice Fragment" />
 
     <fragment
         android:id="@+id/practical_fragment_1"
@@ -54,5 +49,15 @@
         android:id="@+id/practical_fragment_8"
         android:name="com.np.retrofit.practices.practical_8.PracticalFragment"
         android:label="Practical Fragment 8" />
+
+    <fragment
+        android:id="@+id/practical_fragment_9"
+        android:name="com.np.retrofit.practices.practical_9.PracticalFragment"
+        android:label="Practical Fragment 9" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/practical_fragment_n"-->
+<!--        android:name="com.np.retrofit.practices.practical_n.PracticalFragment"-->
+<!--        android:label="Practical Fragment n" />-->
 
 </navigation>
