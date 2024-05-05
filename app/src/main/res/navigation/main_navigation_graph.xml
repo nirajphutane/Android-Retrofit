@@ -55,6 +55,11 @@
         android:name="com.np.retrofit.practices.practical_9.PracticalFragment"
         android:label="Practical Fragment 9" />
 
+    <fragment
+        android:id="@+id/practical_fragment_10"
+        android:name="com.np.retrofit.practices.practical_10.PracticalFragment"
+        android:label="Practical Fragment 10" />
+
 <!--    <fragment-->
 <!--        android:id="@+id/practical_fragment_n"-->
 <!--        android:name="com.np.retrofit.practices.practical_n.PracticalFragment"-->
